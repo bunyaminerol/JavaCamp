@@ -3,6 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("--------------------");
 		System.out.println("Kurslar");
 			
 		Courses course1 = new Courses("C# geliþtirci kampý", 12);
@@ -51,8 +52,17 @@ public class Main {
 		for (Teacher teacher : teachers) {
 			System.out.println(teacher.name+" : "+teacher.detail);
 		}
+		System.out.println("--------------------");
 		
-		
+		LessonManager lessonManager = new LessonManager();
+		lessonManager.addComment("Bu konuyu anlamadým");
+		System.out.println("--------------------");
+		lessonManager.finishAndContiniue();
+		System.out.println("--------------------");
+		lessonManager.previousLesson();
+		System.out.println("--------------------");
+		lessonManager.addComment("Þimdi anladým.");
+		System.out.println("--------------------");
 		
 	}
 
