@@ -1,0 +1,31 @@
+package miniProject2Harf;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String letter = "a";
+		
+		switch (letter.toLowerCase()) {
+			case "a":
+				System.out.println("kalýn harf");
+			case "e":
+				System.out.println("ince harf");
+			case "ý":
+				System.out.println("kalýn harf");
+			case "i":
+				System.out.println("ince harf");	
+			case "o":
+				System.out.println("kalýn harf");	
+			case "ö":
+				System.out.println("ince harf");		
+			case "u":
+				System.out.println("kalýn harf");	
+			case "ü":
+				System.out.println("ince harf");	
+				break;
+		}
+		
+	}
+
+}

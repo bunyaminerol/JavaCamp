@@ -1,0 +1,31 @@
+package miniProject3PerfectNumbers;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int number = 28;
+		int total = 0;
+		//boolean isTam = false; 
+		
+		for (int i=1; i < number; i++) {
+		
+			if (number%i == 0) {
+				System.out.println(total + i);
+				
+			}
+		
+		
+
+		if (total == number) {
+			System.out.println("Bu mükemmel sayidir.");
+		}
+		
+		}
+		
+		
+		
+	}
+
+}
