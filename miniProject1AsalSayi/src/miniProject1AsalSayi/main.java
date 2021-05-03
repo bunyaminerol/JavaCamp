@@ -1,4 +1,4 @@
-package miniProject1AsalSayi;
+/*package miniProject1AsalSayi;
 
 public class main {
 
@@ -36,3 +36,4 @@ public class main {
 	
 
 }
+*/

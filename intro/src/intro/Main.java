@@ -9,7 +9,7 @@ public class Main {
 		String internetSubeButonu = "Ýnternet Þubesi";
 		double dolarDun = 8.10;
 		double dolarBugun = 8.10;
-		boolean dustuMu = false;
+		//boolean dustuMu = false;
 		
 		System.out.println(internetSubeButonu);
 		
