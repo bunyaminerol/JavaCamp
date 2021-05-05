@@ -4,4 +4,8 @@
     <fullyQualifiedTypeName name="oopIntro.Category"/>
     <fullyQualifiedTypeName name="oopIntro.ProductManager"/>
     <fullyQualifiedTypeName name="oopIntro.Product"/>
+    <fullyQualifiedTypeName name="Courses"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Category"/>
+    <fullyQualifiedTypeName name="LessonManager"/>
 </qualifiedTypeNameHistroy>
