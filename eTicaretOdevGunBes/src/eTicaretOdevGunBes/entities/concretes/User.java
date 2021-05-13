@@ -4,6 +4,7 @@ import eTicaretOdevGunBes.entities.abstracts.Entity;
 
 public class User implements Entity{
 	
+	private int id;
 	private String name;
 	private String lastName;
 	private String email;
@@ -11,12 +12,21 @@ public class User implements Entity{
 	
 	public User() {}
 	
-	public User(String name, String lastName, String email, String password) {
+	public User(String name, String lastName, String email, String password,int id) {
 		super();
 		this.name = name;
 		this.lastName = lastName;
 		this.email = email;
 		this.password = password;
+		this.id = id;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public String getName() {
